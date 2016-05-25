@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
-from serializers import UserSerializer, GroupSerializer,LibroSerializer
-from models import Libro
+from quickstart.serializers import UserSerializer, GroupSerializer,LibroSerializer
+from quickstart.models import Libro
 
 
 class UserViewSet(viewsets.ModelViewSet):
